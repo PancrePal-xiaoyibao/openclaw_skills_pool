@@ -1,0 +1,93 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.Python
+.venv/
+venv/
+env/
+
+# ===========================
+# Node.js
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+.pnp.*
+
+# ===========================
+# OpenClaw 运行时产物
+# ===========================
+# 调研报告输出（运行时生成，不纳入版本控制）
+workspace/report/
+report/
+
+# 任务会话目录（运行时生成的 task session）
+workspace/tasks/
+tasks/
+
+# 量化验证临时文件
+**/scratch/*.csv
+**/scratch/*.py
+workspace/report/_scratch/
+
+# ===========================
+# 环境与配置
+# ===========================
+.env
+.env.local
+.env.*.local
+*.local
+
+# ===========================
+# 操作系统
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encdata
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# 编辑器 / IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.iml
+
+# ===========================
+# 日志 & 临时文件
+# ===========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+.cache/
