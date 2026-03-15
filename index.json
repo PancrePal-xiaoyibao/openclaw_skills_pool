@@ -1,0 +1,237 @@
+{
+  "version": "2.1.0",
+  "created_at": "2026-03-08T17:14Z",
+  "updated_at": "2026-03-14T23:14Z",
+  "generator": "workspace/scripts/rebuild-skills-index.js",
+  "runtime_prefix": "/home/node/.openclaw/workspace",
+  "skill_count": 26,
+  "files": [
+    {
+      "name": "ai-spec",
+      "path": "/home/node/.openclaw/workspace/skills/ai-spec/SKILL.md",
+      "relative_path": "./skills/ai-spec/SKILL.md",
+      "description": "将用户需求转化为生产级技术规范与 AI 编码指令。适用于需求不清晰、架构选型、生成完整技术规格或可执行任务清单时。",
+      "tags": [],
+      "last_updated": "2026-03-10T06:41Z"
+    },
+    {
+      "name": "bazi-marriage-matchmaker",
+      "path": "/home/node/.openclaw/workspace/skills/bazi-marriage-matchmaker/SKILL.md",
+      "relative_path": "./skills/bazi-marriage-matchmaker/SKILL.md",
+      "description": "八字合婚大师 - 基于日支密码和天干五合的合婚分析专家。擅长整体取象应象法，挖掘八字深层的引力密码，揭示婚姻的真相。",
+      "tags": [],
+      "last_updated": "2026-03-11T04:33Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "code-debugger",
+      "path": "/home/node/.openclaw/workspace/skills/code-debugger/SKILL.md",
+      "relative_path": "./skills/code-debugger/SKILL.md",
+      "description": "基于深度上下文的智能代码调试与增量开发。用于 Bug 定位与修复、增量功能开发、技术栈 Checkfix 闭环及 .debug 文档维护。",
+      "tags": [],
+      "last_updated": "2026-03-10T06:41Z"
+    },
+    {
+      "name": "debug-ui",
+      "path": "/home/node/.openclaw/workspace/skills/debug-ui/SKILL.md",
+      "relative_path": "./skills/debug-ui/SKILL.md",
+      "description": "name: debug-ui",
+      "tags": [],
+      "last_updated": "2026-03-10T06:41Z"
+    },
+    {
+      "name": "deep-research",
+      "path": "/home/node/.openclaw/workspace/skills/deep-research/SKILL.md",
+      "relative_path": "./skills/deep-research/SKILL.md",
+      "description": "深度调研技能 - 完全内置的多 Agent 并行执行引擎，支持引用管理、文件发送、轻量量化验证和实时进度反馈。支持 2-8 个内置 agent 同时工作，大幅提升 Token 使用效率和执行速度。",
+      "tags": [],
+      "last_updated": "2026-03-14T08:33Z",
+      "version": "2.3.0"
+    },
+    {
+      "name": "drawio-xml-roadmap",
+      "path": "/home/node/.openclaw/workspace/skills/drawio-xml-roadmap/SKILL.md",
+      "relative_path": "./skills/drawio-xml-roadmap/SKILL.md",
+      "description": "Draw.io XML 路线图/流程图设计官 —— 将文字版流程/路线图系统性转换为符合 draw.io .drawio 规范的 mxfile/mxCell XML，避免 \"Invalid file data\" 等解析错误，直接可导入 draw.io Desktop。",
+      "tags": [],
+      "last_updated": "2026-03-14T23:14Z"
+    },
+    {
+      "name": "eight-characters-analysis",
+      "path": "/home/node/.openclaw/workspace/skills/eight-characters-analysis/SKILL.md",
+      "relative_path": "./skills/eight-characters-analysis/SKILL.md",
+      "description": "八字分析专家 - 基于传统中国易学和命理学，通过天干地支、五行生克等理论推算八字命理。提供专业的命理分析、运势预测、五行调理建议。",
+      "tags": [],
+      "last_updated": "2026-03-11T02:05Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "executive-secretary",
+      "path": "/home/node/.openclaw/workspace/skills/executive-secretary/SKILL.md",
+      "relative_path": "./skills/executive-secretary/SKILL.md",
+      "description": "高级行政秘书技能 - 高级别行政领导秘书水平的系统化时间管理专家。擅长处理复杂多变的日程安排，可调用高德地图 MCP 进行路线规划与通勤时间估算，统筹兼顾工作与生活各个层面的时间规划需求。",
+      "tags": [],
+      "last_updated": "2026-03-11T04:52Z",
+      "version": "0.1.1"
+    },
+    {
+      "name": "feishu-file-transfer",
+      "path": "/home/node/.openclaw/workspace/skills/feishu-file-transfer/SKILL.md",
+      "relative_path": "./skills/feishu-file-transfer/SKILL.md",
+      "description": "飞书文件传输任意门 - 通过 MCP 工具将 workspace 中的任意文件发送到飞书聊天",
+      "tags": [],
+      "last_updated": "2026-03-14T10:21Z",
+      "homepage": "https://docs.openclaw.ai/agent-skills"
+    },
+    {
+      "name": "fengshui-gardening-geography",
+      "path": "/home/node/.openclaw/workspace/skills/fengshui-gardening-geography/SKILL.md",
+      "relative_path": "./skills/fengshui-gardening-geography/SKILL.md",
+      "description": "阳宅风水园艺地理专家 - 结合传统风水理论、园艺学和地理学的综合环境分析专家。擅长分析住宅、办公室、园林、城市环境的能量流动、环境布局、景观设计，提供基于风水理论的环境调理建议和园艺设计方案。",
+      "tags": [],
+      "last_updated": "2026-03-11T04:31Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "frontend-slides",
+      "path": "/home/node/.openclaw/workspace/skills/frontend-slides/references/SKILL.md",
+      "relative_path": "./skills/frontend-slides/references/SKILL.md",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+      "tags": [],
+      "last_updated": "2026-03-14T23:13Z"
+    },
+    {
+      "name": "frontend-slides",
+      "path": "/home/node/.openclaw/workspace/skills/frontend-slides/SKILL.md",
+      "relative_path": "./skills/frontend-slides/SKILL.md",
+      "description": "创建零依赖、动画丰富的 HTML 演示文稿。支持从零创建、从 PowerPoint 转换，或增强现有 HTML 演示。帮助非设计师通过视觉探索发现美学偏好，而非抽象选择。",
+      "tags": [],
+      "last_updated": "2026-03-14T23:13Z"
+    },
+    {
+      "name": "iching-divination",
+      "path": "/home/node/.openclaw/workspace/skills/iching-divination/SKILL.md",
+      "relative_path": "./skills/iching-divination/SKILL.md",
+      "description": "端卦占卜大师 - 基于易经六十四卦的占卜系统，通过蓍草、金钱卦、铜钱或数字卦方式占卜，解读卦象、爻辞、卦意，提供占卜结果和指导建议。",
+      "tags": [],
+      "last_updated": "2026-03-11T02:07Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "image-recognition",
+      "path": "/home/node/.openclaw/workspace/skills/image-recognition/SKILL.md",
+      "relative_path": "./skills/image-recognition/SKILL.md",
+      "description": "图片识别基础工作流 - 自动调用 Gemini 进行图片内容分析，然后基于分析结果与用户对话。",
+      "tags": [],
+      "last_updated": "2026-03-11T05:16Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "medical-advisory",
+      "path": "/home/node/.openclaw/workspace/skills/medical-advisory/SKILL.md",
+      "relative_path": "./skills/medical-advisory/SKILL.md",
+      "description": "首席私人医疗架构师 - 循证医学与中医结合的顶级私人医疗顾问。具备临床医学与药理学背景，深度掌握循证医学检索能力，擅长通过实时调用顶级医学数据库，结合传统中医理论，为高净值人群提供科学的健康管理与个性化医疗方案。",
+      "tags": [],
+      "last_updated": "2026-03-10T17:51Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "meihua-ease-number-analysis",
+      "path": "/home/node/.openclaw/workspace/skills/meihua-ease-number-analysis/SKILL.md",
+      "relative_path": "./skills/meihua-ease-number-analysis/SKILL.md",
+      "description": "梅花易数分析师 - 基于梅花易数法的易经占卜专家。擅长通过数字起卦、体用分析、主互变推演、旺衰判定和外应解读，提供最精准、可追溯的预测与建议。",
+      "tags": [],
+      "last_updated": "2026-03-11T04:32Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "metaphysics-generalist",
+      "path": "/home/node/.openclaw/workspace/skills/metaphysics-generalist/SKILL.md",
+      "relative_path": "./skills/metaphysics-generalist/SKILL.md",
+      "description": "玄学通析师 - 综合八字、风水、奇门遁甲、梅花易数等玄学体系的资深玄学专家，能够运用多种玄学方法进行综合分析与解读",
+      "tags": [],
+      "last_updated": "2026-03-11T03:23Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "network-search",
+      "path": "/home/node/.openclaw/workspace/skills/network-search/SKILL.md",
+      "relative_path": "./skills/network-search/SKILL.md",
+      "description": "综合网络搜索技能 - 集成多种搜索工具，提供可靠的信息检索能力",
+      "tags": [],
+      "last_updated": "2026-03-09T09:24Z",
+      "homepage": "https://docs.openclaw.ai/agent-skills"
+    },
+    {
+      "name": "office-docs",
+      "path": "/home/node/.openclaw/workspace/skills/office-docs/SKILL.md",
+      "relative_path": "./skills/office-docs/SKILL.md",
+      "description": "Office 文档处理专家 —— 处理 .pptx（演示文稿）、.docx（Word 文档）、.xlsx（Excel 表格）的读取、编辑、创建与校验。当用户提到这些格式或涉及 PowerPoint、Word、Excel 操作时触发。",
+      "tags": [],
+      "last_updated": "2026-03-14T23:13Z"
+    },
+    {
+      "name": "paper-reader",
+      "path": "/home/node/.openclaw/workspace/skills/paper-reader/SKILL.md",
+      "relative_path": "./skills/paper-reader/SKILL.md",
+      "description": "论文阅读助手 - 资深学术研究员，专精于跨学科文献的精读与批判性分析。帮助用户高效、深刻地理解学术论文，提供结构化的精读报告和批判性思考。",
+      "tags": [],
+      "last_updated": "2026-03-10T17:59Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "qi-dun-jia-yijing-master",
+      "path": "/home/node/.openclaw/workspace/skills/qi-dun-jia-yijing-master/SKILL.md",
+      "relative_path": "./skills/qi-dun-jia-yijing-master/SKILL.md",
+      "description": "奇门遁甲易学宗师 - 奇门遁甲易学专家，擅长奇门遁甲起局、预测和化解，提供时空定点解析和运筹建议。",
+      "tags": [],
+      "last_updated": "2026-03-11T04:29Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ralph",
+      "path": "/home/node/.openclaw/workspace/skills/ralph/SKILL.md",
+      "relative_path": "./skills/ralph/SKILL.md",
+      "description": "Ralph Agent Loop 系统 - 自主 AI Agent 循环系统，支持从 PRD 到代码实现的完整项目开发流程。提供两种执行模式：Classic Ralph（需要 Amp CLI）和 Ralph YOLO（推荐，无需 Amp CLI，只用 Claude Code）。",
+      "tags": [],
+      "last_updated": "2026-03-11T01:06Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "scrna-celltype-annotation",
+      "path": "/home/node/.openclaw/workspace/skills/scrna-celltype-annotation/SKILL.md",
+      "relative_path": "./skills/scrna-celltype-annotation/SKILL.md",
+      "description": "基于 Seurat FindAllMarkers 差异表达结果与文献 MCP 工具，对单细胞亚群进行 major/minor 细胞类型注释并生成带 R recode 代码和详细文献依据的 Markdown 报告。",
+      "tags": [],
+      "last_updated": "2026-03-10T06:41Z",
+      "version": "1.0.0"
+    },
+    {
+      "name": "senor-numerology-master",
+      "path": "/home/node/.openclaw/workspace/skills/senior-numerology-master/SKILL.md",
+      "relative_path": "./skills/senior-numerology-master/SKILL.md",
+      "description": "资深命理师 - 基于传统八字命理、紫微斗数、风水和易经的综合命理分析大师。擅长八字分析、大运小运推算、五行调理和综合命理咨询。",
+      "tags": [],
+      "last_updated": "2026-03-11T03:18Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "six-divines-expert",
+      "path": "/home/node/.openclaw/workspace/skills/six-divines-expert/SKILL.md",
+      "relative_path": "./skills/six-divines-expert/SKILL.md",
+      "description": "六爻断卦专家 - 基于易经六十四卦占卜、六爻解卦、动爻分析和预测建议。",
+      "tags": [],
+      "last_updated": "2026-03-11T04:28Z",
+      "version": "0.1.0"
+    },
+    {
+      "name": "superpowers",
+      "path": "/home/node/.openclaw/workspace/skills/superpowers/SKILL.md",
+      "relative_path": "./skills/superpowers/SKILL.md",
+      "description": "Superpowers 泛用式 AI 任务处理框架 - 基于系统化思考和任务拆解的完整复杂问题解决工作流，适用于软件开发、信息查询、问题分析等各种复杂任务。",
+      "tags": [],
+      "last_updated": "2026-03-14T08:17Z",
+      "version": "2.0.0"
+    }
+  ]
+}
