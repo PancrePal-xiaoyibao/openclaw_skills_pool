@@ -1,0 +1,67 @@
+{
+  "input_summary": {
+    "question": "这次法务争议近期适合主动出击吗？",
+    "question_type": "legal",
+    "analysis_focus": "证据链与程序推进",
+    "season": "autumn",
+    "time_note": "2026-09-03 12:00:00",
+    "mode": "auto-hour"
+  },
+  "auto_meta": {
+    "mode": "auto-hour",
+    "calendar": {
+      "solar": "2026-09-03 12:00:00",
+      "year_gz": "丙午",
+      "month_gz": "丙申",
+      "day_gz": "庚辰",
+      "hour_gz": "壬午",
+      "term": "处暑",
+      "xunkong": "申酉"
+    },
+    "auto_chart": {
+      "method": "chaibu",
+      "use_deity_strategy": "day_stem_sky",
+      "target_strategy": "custom"
+    }
+  },
+  "use_deity": {
+    "label": "求测人",
+    "palace": "离"
+  },
+  "target": {
+    "label": "counterparty",
+    "palace": "乾"
+  },
+  "summary": "当前盘面对法务/纠纷处理偏不利，宜降速避险。",
+  "band": "guarded",
+  "confidence": "high",
+  "five_dimensions": {
+    "性": "离宫之明、附丽、曝光，在本题里主证据、程序、攻防与责任",
+    "情": "惊门主惊扰、突变、焦躁；六合主协调、结盟、愿意合作",
+    "形": "天任显稳重、承载、耐力；亮相、传播、可见度",
+    "体": "在legal问题里，此宫更像纠纷、程序推进、文书与责任主体，并落在曝光面、品牌面",
+    "用": "主受制、主拖延或主风险上浮；当前旺衰为囚",
+    "时空坐标": "季节=autumn；宫位=离；问题场域=曝光面、品牌面"
+  },
+  "timing": {
+    "pace": "慢",
+    "trigger": "短期宜稳守，待时令或局面改观后再动",
+    "basis": "当前门星神与旺衰共同压制节奏。"
+  },
+  "risk_flags": [
+    "综合倾向偏弱：当前局面不适合硬推。",
+    "惊门 入局：行动方式若过激，容易放大成本与冲突。"
+  ],
+  "advice": [
+    "当前不宜硬推，先做风险隔离，再处理证据链、程序节奏与风险隔离。",
+    "若必须动作，采用降速、分段、留后手的策略。",
+    "节奏偏慢时，重在守节奏与蓄势，不在抢快。"
+  ],
+  "reasoning": [
+    "用神取 求测人，落 离 宫。",
+    "fire 在 autumn 属 囚；惊门 对 legal 属风险门；六合 为助力神；主客关系：我克彼：我方对对手或对象有制约力。",
+    "综合分数=-1.20，判为 guarded。"
+  ],
+  "target_relation": "我克彼：我方对对手或对象有制约力。",
+  "pattern_hits": []
+}

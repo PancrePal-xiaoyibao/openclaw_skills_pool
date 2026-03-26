@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proactive Agent"
+  short_description: "Recover context and act proactively"
+  default_prompt: "Use $proactive-agent to recover cleanly after /new or context drift, read local memory files first, and proactively carry the task forward."

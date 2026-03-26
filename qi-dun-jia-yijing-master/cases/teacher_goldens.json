@@ -1,0 +1,56 @@
+[
+  {
+    "id": "career-open-door-support",
+    "golden_points": [
+      "利公开协商",
+      "适合主动推进",
+      "重在抓核心场域"
+    ],
+    "teacher_band": "favorable"
+  },
+  {
+    "id": "relationship-empty-delay",
+    "golden_points": [
+      "关系可推但不宜过急",
+      "空亡主延后",
+      "先试探再承诺"
+    ],
+    "teacher_band": "lean-favorable"
+  },
+  {
+    "id": "competition-guarded-alert",
+    "golden_points": [
+      "不宜硬碰硬",
+      "白虎主风险",
+      "先避锋芒后谋转机"
+    ],
+    "teacher_band": "guarded"
+  },
+  {
+    "id": "auto-career-day-stem",
+    "golden_points": [
+      "模式：auto-hour",
+      "当前盘面对事业/合作推进有反复",
+      "先观望后推进"
+    ],
+    "teacher_band": "mixed"
+  },
+  {
+    "id": "auto-relationship-hour-stem",
+    "golden_points": [
+      "当前盘面对关系推进偏不利",
+      "不宜硬推",
+      "待出空、补实或条件补齐后再动"
+    ],
+    "teacher_band": "guarded"
+  },
+  {
+    "id": "auto-legal-guarded",
+    "golden_points": [
+      "当前法务局势偏谨慎",
+      "先守证据链",
+      "不宜先动怒后行动"
+    ],
+    "teacher_band": "guarded"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "mode": "auto-hour",
+  "question": "这次合作谈判能否顺利推进？",
+  "question_type": "career",
+  "subject_role": "self",
+  "target_role": "counterparty",
+  "analysis_focus": "合作推进与应期",
+  "calendar": {
+    "year": 2026,
+    "month": 3,
+    "day": 21,
+    "hour": 15,
+    "minute": 0
+  },
+  "auto_chart": {
+    "method": "chaibu",
+    "use_deity_strategy": "day_stem_sky",
+    "target_strategy": "custom",
+    "target_palace": "坤"
+  }
+}

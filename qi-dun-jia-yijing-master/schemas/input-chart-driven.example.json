@@ -1,0 +1,65 @@
+{
+  "question": "这次合作谈判能否顺利推进？",
+  "question_type": "career",
+  "subject_role": "self",
+  "target_role": "counterparty",
+  "analysis_focus": "合作推进与应期",
+  "chart": {
+    "method": "manual-chart",
+    "dun": "yang",
+    "ju": 3,
+    "season": "autumn",
+    "time_note": "2026-03-21 申时",
+    "xunkong": "子丑",
+    "horse": "寅",
+    "use_deity": {
+      "label": "求测人",
+      "palace": "乾"
+    },
+    "counterparty": {
+      "label": "对方",
+      "palace": "坤"
+    },
+    "palaces": [
+      {
+        "name": "乾",
+        "trigram": "乾",
+        "element": "metal",
+        "door": "开门",
+        "star": "天心",
+        "god": "六合",
+        "heaven_stem": "乙",
+        "earth_stem": "辛",
+        "empty": false,
+        "horse": false,
+        "notes": ""
+      },
+      {
+        "name": "坤",
+        "trigram": "坤",
+        "element": "earth",
+        "door": "死门",
+        "star": "天芮",
+        "god": "玄武",
+        "heaven_stem": "庚",
+        "earth_stem": "己",
+        "empty": false,
+        "horse": false,
+        "notes": ""
+      },
+      {
+        "name": "兑",
+        "trigram": "兑",
+        "element": "metal",
+        "door": "景门",
+        "star": "天英",
+        "god": "九天",
+        "heaven_stem": "丙",
+        "earth_stem": "丁",
+        "empty": false,
+        "horse": false,
+        "notes": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+[
+  {
+    "id": "career-open-door-support",
+    "description": "合作推进：用神落乾宫，开门天心六合，秋金得令，主利于主动推进。",
+    "input": {
+      "question": "这次合作谈判能否顺利推进？",
+      "question_type": "career",
+      "subject_role": "self",
+      "target_role": "counterparty",
+      "analysis_focus": "合作推进与应期",
+      "chart": {
+        "method": "manual-chart",
+        "dun": "yang",
+        "ju": 3,
+        "season": "autumn",
+        "time_note": "2026-03-21 申时",
+        "xunkong": "子丑",
+        "horse": "寅",
+        "use_deity": {
+          "label": "求测人",
+          "palace": "乾"
+        },
+        "counterparty": {
+          "label": "对方",
+          "palace": "坤"
+        },
+        "palaces": [
+          {
+            "name": "乾",
+            "trigram": "乾",
+            "element": "metal",
+            "door": "开门",
+            "star": "天心",
+            "god": "六合",
+            "heaven_stem": "乙",
+            "earth_stem": "辛",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          },
+          {
+            "name": "坤",
+            "trigram": "坤",
+            "element": "earth",
+            "door": "死门",
+            "star": "天芮",
+            "god": "玄武",
+            "heaven_stem": "庚",
+            "earth_stem": "己",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          },
+          {
+            "name": "兑",
+            "trigram": "兑",
+            "element": "metal",
+            "door": "景门",
+            "star": "天英",
+            "god": "九天",
+            "heaven_stem": "丙",
+            "earth_stem": "丁",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          }
+        ]
+      }
+    },
+    "expected_substrings": [
+      "适合主动推进",
+      "开门",
+      "六合",
+      "## 【五维落点】"
+    ],
+    "forbidden_substrings": [
+      "偏不利，宜降速避险"
+    ],
+    "expected_band": "favorable"
+  },
+  {
+    "id": "relationship-empty-delay",
+    "description": "关系推进：用神落巽宫，杜门天辅太阴且落空，主可推进但节奏偏慢。",
+    "input": {
+      "question": "这段关系近期适合表白推进吗？",
+      "question_type": "relationship",
+      "subject_role": "self",
+      "target_role": "counterparty",
+      "analysis_focus": "关系推进与时机",
+      "chart": {
+        "method": "manual-chart",
+        "dun": "yin",
+        "ju": 6,
+        "season": "spring",
+        "time_note": "2026-04-08 酉时",
+        "xunkong": "辰巳",
+        "horse": "申",
+        "use_deity": {
+          "label": "求测关系",
+          "palace": "巽"
+        },
+        "counterparty": {
+          "label": "对方",
+          "palace": "兑"
+        },
+        "palaces": [
+          {
+            "name": "巽",
+            "trigram": "巽",
+            "element": "wood",
+            "door": "杜门",
+            "star": "天辅",
+            "god": "太阴",
+            "heaven_stem": "乙",
+            "earth_stem": "辛",
+            "empty": true,
+            "horse": false,
+            "notes": ""
+          },
+          {
+            "name": "兑",
+            "trigram": "兑",
+            "element": "metal",
+            "door": "开门",
+            "star": "天英",
+            "god": "六合",
+            "heaven_stem": "丙",
+            "earth_stem": "庚",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          },
+          {
+            "name": "坎",
+            "trigram": "坎",
+            "element": "water",
+            "door": "休门",
+            "star": "天心",
+            "god": "九地",
+            "heaven_stem": "壬",
+            "earth_stem": "癸",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          }
+        ]
+      }
+    },
+    "expected_substrings": [
+      "可推进，但要控节奏",
+      "宫位落空",
+      "## 【应期与节奏】"
+    ],
+    "forbidden_substrings": [
+      "适合主动推进"
+    ],
+    "expected_band": "lean-favorable"
+  },
+  {
+    "id": "competition-guarded-alert",
+    "description": "竞争局势：用神受秋金压木，惊门天柱白虎，主强风险。",
+    "input": {
+      "question": "这个竞争局近期是否适合硬碰硬？",
+      "question_type": "competition",
+      "subject_role": "self",
+      "target_role": "rival",
+      "analysis_focus": "攻防与主动权",
+      "chart": {
+        "method": "manual-chart",
+        "dun": "yang",
+        "ju": 8,
+        "season": "autumn",
+        "time_note": "2026-09-03 午时",
+        "xunkong": "午未",
+        "horse": "申",
+        "use_deity": {
+          "label": "我方攻势",
+          "palace": "震"
+        },
+        "counterparty": {
+          "label": "对手",
+          "palace": "乾"
+        },
+        "palaces": [
+          {
+            "name": "震",
+            "trigram": "震",
+            "element": "wood",
+            "door": "惊门",
+            "star": "天柱",
+            "god": "白虎",
+            "heaven_stem": "庚",
+            "earth_stem": "乙",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          },
+          {
+            "name": "乾",
+            "trigram": "乾",
+            "element": "metal",
+            "door": "开门",
+            "star": "天心",
+            "god": "值符",
+            "heaven_stem": "辛",
+            "earth_stem": "庚",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          },
+          {
+            "name": "坤",
+            "trigram": "坤",
+            "element": "earth",
+            "door": "生门",
+            "star": "天任",
+            "god": "九地",
+            "heaven_stem": "戊",
+            "earth_stem": "己",
+            "empty": false,
+            "horse": false,
+            "notes": ""
+          }
+        ]
+      }
+    },
+    "expected_substrings": [
+      "偏不利，宜降速避险",
+      "白虎",
+      "## 【风险点】"
+    ],
+    "forbidden_substrings": [
+      "适合主动推进"
+    ],
+    "expected_band": "guarded"
+  },
+  {
+    "id": "auto-career-day-stem",
+    "description": "自动排局：以 2026-03-21 申时自动生成盘面，日干落宫用于事业推进判断。",
+    "input": {
+      "mode": "auto-hour",
+      "question": "这次合作谈判能否顺利推进？",
+      "question_type": "career",
+      "subject_role": "self",
+      "target_role": "counterparty",
+      "analysis_focus": "合作推进与应期",
+      "calendar": {
+        "year": 2026,
+        "month": 3,
+        "day": 21,
+        "hour": 15,
+        "minute": 0
+      },
+      "auto_chart": {
+        "method": "chaibu",
+        "use_deity_strategy": "day_stem_sky",
+        "target_strategy": "custom",
+        "target_palace": "坤"
+      }
+    },
+    "expected_substrings": [
+      "模式：auto-hour",
+      "春分",
+      "甲午日",
+      "## 【五维落点】"
+    ],
+    "forbidden_substrings": [
+      "QIMEN_PROTOCOL_FAIL"
+    ],
+    "expected_band": "mixed"
+  },
+  {
+    "id": "auto-relationship-hour-stem",
+    "description": "自动排局：以 2026-04-08 酉时自动生成盘面，时干落宫用于关系推进判断。",
+    "input": {
+      "mode": "auto-hour",
+      "question": "这段关系近期适合主动推进吗？",
+      "question_type": "relationship",
+      "subject_role": "self",
+      "target_role": "counterparty",
+      "analysis_focus": "关系推进与试探节奏",
+      "calendar": {
+        "year": 2026,
+        "month": 4,
+        "day": 8,
+        "hour": 17,
+        "minute": 0
+      },
+      "auto_chart": {
+        "method": "chaibu",
+        "use_deity_strategy": "hour_stem_sky",
+        "target_strategy": "custom",
+        "target_palace": "兑"
+      }
+    },
+    "expected_substrings": [
+      "清明",
+      "壬子日",
+      "## 【五维落点】"
+    ],
+    "forbidden_substrings": [
+      "QIMEN_PROTOCOL_FAIL"
+    ],
+    "expected_band": "guarded"
+  },
+  {
+    "id": "auto-legal-guarded",
+    "description": "自动排局：以 2026-09-03 午时自动生成盘面，法务问题走谨慎防守节奏。",
+    "input": {
+      "mode": "auto-hour",
+      "question": "这次法务争议近期适合主动出击吗？",
+      "question_type": "legal",
+      "subject_role": "self",
+      "target_role": "counterparty",
+      "analysis_focus": "证据链与程序推进",
+      "calendar": {
+        "year": 2026,
+        "month": 9,
+        "day": 3,
+        "hour": 12,
+        "minute": 0
+      },
+      "auto_chart": {
+        "method": "chaibu",
+        "use_deity_strategy": "day_stem_sky",
+        "target_strategy": "custom",
+        "target_palace": "乾"
+      }
+    },
+    "expected_substrings": [
+      "处暑",
+      "庚辰日",
+      "## 【风险点】"
+    ],
+    "forbidden_substrings": [
+      "QIMEN_PROTOCOL_FAIL"
+    ],
+    "expected_band": "guarded"
+  }
+]

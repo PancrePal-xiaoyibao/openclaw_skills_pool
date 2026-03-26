@@ -20,6 +20,7 @@ TASK_SCRIPT_DIR = WORKSPACE_DIR / "scripts"
 sys.path.insert(0, str(TASK_SCRIPT_DIR))
 
 import task_session  # noqa: E402
+from search_backend_cooldown import maybe_record_search_backend_cooldown  # noqa: E402
 
 DEFAULT_MODEL_CHAIN = [
     "zai/glm-4.7-flash",
@@ -61,6 +62,7 @@ def append_agent_status(task_dir: Path, agent_name: str, role: str, status: str,
         "note": note,
     }
     task_session.append_jsonl(task_dir / "agents.jsonl", payload)
+    maybe_record_search_backend_cooldown(task_dir=task_dir, status=status, text=note)
 
 
 def resolve_source_config_path(explicit: str | None) -> Path:

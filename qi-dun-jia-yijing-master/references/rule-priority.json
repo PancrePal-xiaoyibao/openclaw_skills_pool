@@ -1,0 +1,261 @@
+{
+  "analysis_order": [
+    "use_deity",
+    "palace",
+    "door",
+    "star",
+    "god",
+    "seasonal_strength",
+    "target_relation",
+    "empty"
+  ],
+  "question_preferences": {
+    "career": {
+      "favorable_doors": [
+        "开门",
+        "生门",
+        "休门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门",
+        "惊门"
+      ],
+      "favorable_stars": [
+        "天心",
+        "天辅",
+        "天任",
+        "天英"
+      ],
+      "unfavorable_stars": [
+        "天芮",
+        "天柱",
+        "天蓬"
+      ],
+      "favorable_gods": [
+        "值符",
+        "六合",
+        "九天"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武",
+        "腾蛇"
+      ]
+    },
+    "relationship": {
+      "favorable_doors": [
+        "开门",
+        "休门",
+        "生门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门",
+        "惊门"
+      ],
+      "favorable_stars": [
+        "天心",
+        "天辅",
+        "天英",
+        "天任"
+      ],
+      "unfavorable_stars": [
+        "天柱",
+        "天芮",
+        "天蓬"
+      ],
+      "favorable_gods": [
+        "六合",
+        "太阴",
+        "九地"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武",
+        "腾蛇"
+      ]
+    },
+    "transaction": {
+      "favorable_doors": [
+        "开门",
+        "生门",
+        "景门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门",
+        "杜门"
+      ],
+      "favorable_stars": [
+        "天心",
+        "天英",
+        "天任"
+      ],
+      "unfavorable_stars": [
+        "天芮",
+        "天蓬",
+        "天柱"
+      ],
+      "favorable_gods": [
+        "六合",
+        "值符",
+        "九天"
+      ],
+      "unfavorable_gods": [
+        "玄武",
+        "白虎",
+        "腾蛇"
+      ]
+    },
+    "competition": {
+      "favorable_doors": [
+        "开门",
+        "景门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "惊门",
+        "杜门"
+      ],
+      "favorable_stars": [
+        "天冲",
+        "天心",
+        "天英"
+      ],
+      "unfavorable_stars": [
+        "天芮",
+        "天柱",
+        "天蓬"
+      ],
+      "favorable_gods": [
+        "值符",
+        "九天"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武",
+        "腾蛇"
+      ]
+    },
+    "health": {
+      "favorable_doors": [
+        "休门",
+        "生门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门",
+        "惊门"
+      ],
+      "favorable_stars": [
+        "天心",
+        "天任",
+        "天辅"
+      ],
+      "unfavorable_stars": [
+        "天芮",
+        "天柱",
+        "天蓬"
+      ],
+      "favorable_gods": [
+        "太阴",
+        "九地",
+        "六合"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武",
+        "腾蛇"
+      ]
+    },
+    "travel": {
+      "favorable_doors": [
+        "开门",
+        "休门",
+        "景门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门",
+        "杜门"
+      ],
+      "favorable_stars": [
+        "天冲",
+        "天英",
+        "天辅"
+      ],
+      "unfavorable_stars": [
+        "天芮",
+        "天柱"
+      ],
+      "favorable_gods": [
+        "九天",
+        "六合"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武"
+      ]
+    },
+    "legal": {
+      "favorable_doors": [
+        "开门",
+        "景门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门",
+        "惊门"
+      ],
+      "favorable_stars": [
+        "天心",
+        "天辅"
+      ],
+      "unfavorable_stars": [
+        "天柱",
+        "天芮",
+        "天蓬"
+      ],
+      "favorable_gods": [
+        "值符",
+        "六合"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武",
+        "腾蛇"
+      ]
+    },
+    "general": {
+      "favorable_doors": [
+        "开门",
+        "生门",
+        "休门"
+      ],
+      "unfavorable_doors": [
+        "死门",
+        "伤门"
+      ],
+      "favorable_stars": [
+        "天心",
+        "天辅",
+        "天任"
+      ],
+      "unfavorable_stars": [
+        "天芮",
+        "天柱"
+      ],
+      "favorable_gods": [
+        "值符",
+        "六合",
+        "九地"
+      ],
+      "unfavorable_gods": [
+        "白虎",
+        "玄武",
+        "腾蛇"
+      ]
+    }
+  }
+}

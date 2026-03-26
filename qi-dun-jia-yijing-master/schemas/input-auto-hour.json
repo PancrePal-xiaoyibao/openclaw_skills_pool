@@ -1,0 +1,21 @@
+{
+  "mode": "auto-hour",
+  "question": "未来能否遇到能做自己的人，最终形成家庭？",
+  "question_type": "relationship",
+  "subject_role": "self",
+  "target_role": "future_spouse",
+  "analysis_focus": "婚姻缘分与应期",
+  "calendar": {
+    "year": 2026,
+    "month": 3,
+    "day": 22,
+    "hour": 12,
+    "minute": 58
+  },
+  "auto_chart": {
+    "method": "chaibu",
+    "use_deity_strategy": "day_stem_sky",
+    "target_strategy": "custom",
+    "target_palace": "乾"
+  }
+}

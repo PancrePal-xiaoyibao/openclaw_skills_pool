@@ -1,0 +1,71 @@
+{
+  "input_summary": {
+    "question": "这段关系近期适合主动推进吗？",
+    "question_type": "relationship",
+    "analysis_focus": "关系推进与试探节奏",
+    "season": "spring",
+    "time_note": "2026-04-08 17:00:00",
+    "mode": "auto-hour"
+  },
+  "auto_meta": {
+    "mode": "auto-hour",
+    "calendar": {
+      "solar": "2026-04-08 17:00:00",
+      "year_gz": "丙午",
+      "month_gz": "壬辰",
+      "day_gz": "壬子",
+      "hour_gz": "己酉",
+      "term": "清明",
+      "xunkong": "寅卯"
+    },
+    "auto_chart": {
+      "method": "chaibu",
+      "use_deity_strategy": "hour_stem_sky",
+      "target_strategy": "custom"
+    }
+  },
+  "use_deity": {
+    "label": "求测人",
+    "palace": "艮"
+  },
+  "target": {
+    "label": "counterparty",
+    "palace": "兑"
+  },
+  "summary": "当前盘面对关系推进偏不利，宜降速避险。",
+  "band": "guarded",
+  "confidence": "high",
+  "five_dimensions": {
+    "性": "艮宫之止、界限、阻隔，在本题里主关系温度、互动节奏、稳定性",
+    "情": "死门主沉滞、冻结、退场；勾陈主拖住、纠缠、现实牵制",
+    "形": "天禽显中和、统筹、居中调配；门槛、停顿、边界",
+    "体": "在relationship问题里，此宫更像关系本身、互动模式、情感边界，并落在关卡面、阻滞面",
+    "用": "主受制、主拖延或主风险上浮；当前旺衰为死",
+    "时空坐标": "季节=spring；宫位=艮；问题场域=关卡面、阻滞面"
+  },
+  "timing": {
+    "pace": "慢",
+    "trigger": "待出空、补实或条件补齐后再动",
+    "basis": "用神宫落空，主结果不宜视为已实落。"
+  },
+  "risk_flags": [
+    "用神落空：事情容易延后、落差感强，先做准备动作。",
+    "综合倾向偏弱：当前局面不适合硬推。",
+    "死门 入局：行动方式若过激，容易放大成本与冲突。",
+    "我方耗力偏大：推进过程中容易自己先付出。"
+  ],
+  "advice": [
+    "当前不宜硬推，先做风险隔离，再处理关系节奏与真实沟通。",
+    "若必须动作，采用降速、分段、留后手的策略。",
+    "涉及空亡，先做准备与铺垫，不要把短期静默误判成彻底失败。",
+    "当前我方投入容易偏大，需先设置边界和止损线。",
+    "节奏偏慢时，重在守节奏与蓄势，不在抢快。"
+  ],
+  "reasoning": [
+    "用神取 求测人，落 艮 宫。",
+    "earth 在 spring 属 死；死门 对 relationship 属风险门；宫位落空，主延后或暂不落实；主客关系：我生彼：我方更耗力，对方较易得益。",
+    "综合分数=-3.00，判为 guarded。"
+  ],
+  "target_relation": "我生彼：我方更耗力，对方较易得益。",
+  "pattern_hits": []
+}

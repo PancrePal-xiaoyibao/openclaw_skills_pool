@@ -1,0 +1,50 @@
+# Qimen Bench Summary
+
+- `career-open-door-support` | status=PASS | band=favorable | ratio=1.0
+  - description: 合作推进：用神落乾宫，开门天心六合，秋金得令，主利于主动推进。
+  - expected_hits: ['适合主动推进', '开门', '六合', '## 【五维落点】']
+  - forbidden_hits: []
+  - band_match: True
+  - golden_hits: ['适合主动推进']
+  - golden_band_match: True
+  - golden_ratio: 0.5
+- `relationship-empty-delay` | status=PASS | band=lean-favorable | ratio=1.0
+  - description: 关系推进：用神落巽宫，杜门天辅太阴且落空，主可推进但节奏偏慢。
+  - expected_hits: ['可推进，但要控节奏', '宫位落空', '## 【应期与节奏】']
+  - forbidden_hits: []
+  - band_match: True
+  - golden_hits: []
+  - golden_band_match: True
+  - golden_ratio: 0.25
+- `competition-guarded-alert` | status=PASS | band=guarded | ratio=1.0
+  - description: 竞争局势：用神受秋金压木，惊门天柱白虎，主强风险。
+  - expected_hits: ['偏不利，宜降速避险', '白虎', '## 【风险点】']
+  - forbidden_hits: []
+  - band_match: True
+  - golden_hits: []
+  - golden_band_match: True
+  - golden_ratio: 0.25
+- `auto-career-day-stem` | status=PASS | band=mixed | ratio=1.0
+  - description: 自动排局：以 2026-03-21 申时自动生成盘面，日干落宫用于事业推进判断。
+  - expected_hits: ['模式：auto-hour', '春分', '甲午日', '## 【五维落点】']
+  - forbidden_hits: []
+  - band_match: True
+  - golden_hits: ['模式：auto-hour', '当前盘面对事业/合作推进有反复', '先观望后推进']
+  - golden_band_match: True
+  - golden_ratio: 1.0
+- `auto-relationship-hour-stem` | status=PASS | band=guarded | ratio=1.0
+  - description: 自动排局：以 2026-04-08 酉时自动生成盘面，时干落宫用于关系推进判断。
+  - expected_hits: ['清明', '壬子日', '## 【五维落点】']
+  - forbidden_hits: []
+  - band_match: True
+  - golden_hits: ['当前盘面对关系推进偏不利', '不宜硬推', '待出空、补实或条件补齐后再动']
+  - golden_band_match: True
+  - golden_ratio: 1.0
+- `auto-legal-guarded` | status=PASS | band=guarded | ratio=1.0
+  - description: 自动排局：以 2026-09-03 午时自动生成盘面，法务问题走谨慎防守节奏。
+  - expected_hits: ['处暑', '庚辰日', '## 【风险点】']
+  - forbidden_hits: []
+  - band_match: True
+  - golden_hits: []
+  - golden_band_match: True
+  - golden_ratio: 0.25

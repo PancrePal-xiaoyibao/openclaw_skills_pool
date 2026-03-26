@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self-Improving Ontology"
+  short_description: "Self-improvement logs with graph memory"
+  default_prompt: "Use $self-improving-ontology to capture a failure, promote the learning, and query or update the shared ontology."

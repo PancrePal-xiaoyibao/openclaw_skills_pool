@@ -1,0 +1,42 @@
+{
+  "career": {
+    "axis": "推进、职权、项目落地",
+    "body": "项目、岗位、合作推进轴",
+    "advice_focus": "推进节奏与组织协同"
+  },
+  "relationship": {
+    "axis": "关系温度、互动节奏、稳定性",
+    "body": "关系本身、互动模式、情感边界",
+    "advice_focus": "关系节奏与真实沟通"
+  },
+  "transaction": {
+    "axis": "成交、交换、资源对价",
+    "body": "合同、订单、资金与交付",
+    "advice_focus": "对价、条款与兑现条件"
+  },
+  "competition": {
+    "axis": "攻守、抢位、资源争夺",
+    "body": "竞品、对手、攻防局势",
+    "advice_focus": "主动权、节奏权与风险控制"
+  },
+  "health": {
+    "axis": "修复、损耗、风险演变",
+    "body": "身体处理、疗程与恢复节奏",
+    "advice_focus": "风险识别与节奏管理"
+  },
+  "travel": {
+    "axis": "路径、节奏、变动与安全",
+    "body": "出行路线、交通与过程安排",
+    "advice_focus": "路径选择与安全边界"
+  },
+  "legal": {
+    "axis": "证据、程序、攻防与责任",
+    "body": "纠纷、程序推进、文书与责任主体",
+    "advice_focus": "证据链、程序节奏与风险隔离"
+  },
+  "general": {
+    "axis": "当前事项主轴",
+    "body": "当前事项载体",
+    "advice_focus": "先稳主轴，再做动作"
+  }
+}

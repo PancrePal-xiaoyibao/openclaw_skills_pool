@@ -1,0 +1,65 @@
+{
+  "input_summary": {
+    "question": "这次合作谈判能否顺利推进？",
+    "question_type": "career",
+    "analysis_focus": "合作推进与应期",
+    "season": "spring",
+    "time_note": "2026-03-21 15:00:00",
+    "mode": "auto-hour"
+  },
+  "auto_meta": {
+    "mode": "auto-hour",
+    "calendar": {
+      "solar": "2026-03-21 15:00:00",
+      "year_gz": "丙午",
+      "month_gz": "辛卯",
+      "day_gz": "甲午",
+      "hour_gz": "壬申",
+      "term": "春分",
+      "xunkong": "辰巳"
+    },
+    "auto_chart": {
+      "method": "chaibu",
+      "use_deity_strategy": "day_stem_sky",
+      "target_strategy": "custom"
+    }
+  },
+  "use_deity": {
+    "label": "求测人",
+    "palace": "震"
+  },
+  "target": {
+    "label": "counterparty",
+    "palace": "坤"
+  },
+  "summary": "当前盘面对事业/合作推进有反复，宜先观望后推进。",
+  "band": "mixed",
+  "confidence": "high",
+  "five_dimensions": {
+    "性": "震宫之动、起势、冲开，在本题里主推进、职权、项目落地",
+    "情": "景门主显摆、包装、声势；勾陈主拖住、纠缠、现实牵制",
+    "形": "天柱显压力、争执、顶撞；启动、震荡、动作显性",
+    "体": "在career问题里，此宫更像项目、岗位、合作推进轴，并落在启动面、攻势面",
+    "用": "主反复与观望，宜先试探再推进；当前旺衰为旺",
+    "时空坐标": "季节=spring；宫位=震；问题场域=启动面、攻势面"
+  },
+  "timing": {
+    "pace": "中",
+    "trigger": "需先出现试探、沟通或条件调整，再见推进",
+    "basis": "盘面可动，但不宜把第一次反馈视为最终落地。"
+  },
+  "risk_flags": [
+    "当前无硬性凶信，但仍需按盘面节奏推进。"
+  ],
+  "advice": [
+    "先观望后推进，把动作拆小，重点观察推进节奏与组织协同是否出现转强信号。",
+    "优先做低成本验证，不宜一口气把筹码压满。"
+  ],
+  "reasoning": [
+    "用神取 求测人，落 震 宫。",
+    "wood 在 spring 属 旺；景门 对 career 为中性门；天柱 为此题型减分星；主客关系：我克彼：我方对对手或对象有制约力。",
+    "综合分数=0.60，判为 mixed。"
+  ],
+  "target_relation": "我克彼：我方对对手或对象有制约力。",
+  "pattern_hits": []
+}

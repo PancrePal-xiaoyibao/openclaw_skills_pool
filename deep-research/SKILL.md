@@ -75,6 +75,70 @@ bash workspace/scripts/skill-prepare-batch.sh deep-research default "" "<task-sl
 其中，美国对伊朗的制裁措施已实施多年，形成了完整的贸易封锁网络 [4] [5] [6]。
 ```
 
+**关键论据来源硬化规则**：
+- 如果一个论据直接支撑：
+  - 政策判断
+  - 动机归因
+  - 决策链
+  - 结论强度
+  - 核心数字口径
+  那么默认不能只停在聚合页、博客、自媒体或二手转述。
+- `知乎专栏 / CSDN / 腾讯聚合页 / 微信公众号 / 博客` 可以作为线索入口，但不应作为最关键论据的最终落脚点，除非用户明确接受次级来源。
+- 对这类线索型来源，默认动作应是继续追到：
+  - 官方原文
+  - 官方 PDF / 政策正文
+  - 政府官网 / 医院官网
+  - 同行评审论文
+  - 权威机构正式发布
+- 如果暂时找不到原始来源，报告里必须明确标注“该证据层级较弱”或“该表述基于二手转述”，不能直接写成“官方已明确”。
+
+**引用可核查底线**：
+- 无论是主 agent 还是子 agent，只要输出的是 deep-research 报告或 task-local 研究稿，就必须把实际查到的来源链接补齐。
+- `references / citations / sources` 中不允许留下只有标题、只有 PMID/DOI、只有来源名、或 `https://...` / `TBD` / `待补` 这类占位值的条目。
+- 如果条目已经包含 `DOI / PMID / PMCID`，workspace 会在落盘前尝试自动归一化成官方链接，但这只补“已有标识符”的学术条目，不会替你额外搜索普通网页来源。
+- 如果暂时只有线索但没有可点击 URL，这类内容只能放到：
+  - `Unverified Leads`
+  - `Limitations`
+  - `待进一步核查`
+  不能继续留在 `参考文献` 或正式引用载荷里。
+- 自动补链命令：
+
+```bash
+python3 workspace/scripts/deep_research_reference_normalizer.py --report <report-path> --in-place
+```
+
+- workspace 内的硬校验命令：
+
+```bash
+python3 workspace/scripts/deep_research_reference_guard.py --report <report-path>
+```
+
+- 最终正式交付前，统一走：
+
+```bash
+bash workspace/scripts/deep-research-deliver.sh --path <report-path>
+```
+
+**分层赋权规则**：
+- 这不是“强信源替代弱信源”的非此即彼关系，而是“强弱信源并存、但结论权重分层”。
+- 强信源负责锚定：
+  - 政策文本
+  - 硬数字
+  - 正式制度
+  - 明确表态
+  - 决策链主干
+- 弱信源可以保留，用于补充：
+  - 潜规则
+  - 非正式激励
+  - 科室内部操作习惯
+  - 一线抱怨与博弈细节
+  - 需要进一步验证的行业传闻
+- 写作时必须区分：
+  - `高权重结论`
+  - `中权重支持`
+  - `低权重软信号`
+- 当弱信源与强信源冲突时，强信源决定事实口径；弱信源只保留为“存在这种说法/实践线索”。
+
 ### 文件发送能力
 
 **文件发送机制**：
@@ -261,6 +325,8 @@ bash workspace/scripts/skill-prepare-batch.sh deep-research default "" "<task-sl
 2. 记录来源 URL 和发布时间
 3. 生成带 `[数字]` 引用标记的初步报告
 4. 确保每个事实都有对应的引用标记
+5. 如果某条线索还没有直接 URL，不得把它放进 `citations` / `references`，只能放进 `unverified_leads`
+6. 如果已有 `DOI / PMID / PMCID`，在落盘前先用 normalizer 自动补官方 URL
 
 **输出格式**：
 ```json
@@ -285,6 +351,12 @@ bash workspace/scripts/skill-prepare-batch.sh deep-research default "" "<task-sl
       "url": "https://...",
       "date": "2026-03-10"
     }
+  ],
+  "unverified_leads": [
+    {
+      "claim": "只有标题或 DOI，还没补到实际 URL 的线索",
+      "reason": "缺少可核查链接，不能进入 references"
+    }
   ]
 }
 ```
@@ -297,6 +369,7 @@ bash workspace/scripts/skill-prepare-batch.sh deep-research default "" "<task-sl
 1. 对收集的信息进行多维度分析
 2. 在分析结果中引用具体来源
 3. 使用 `[数字]` 引用标记
+4. 不得把无 URL 的二手线索继续抬升为正式引用
 
 **输出格式**：
 ```json
@@ -373,11 +446,15 @@ python3 workspace/skills/deep-research/scripts/research_quant_toolkit.py calc \
 2. 生成带 `[数字]` 引用标记的正文
 3. 生成完整的 Reference Section
 4. 如果是金融高时效任务，固定增加 `## Data Freshness & Completeness`
-5. 金融高时效任务在交付前先运行：
+5. 在任何正式交付前，先运行：
+   - `python3 workspace/scripts/deep_research_reference_normalizer.py --report <report> --in-place`
+6. 再运行：
+   - `python3 workspace/scripts/deep_research_reference_guard.py --report <report>`
+7. 金融高时效任务在交付前再运行：
    - `python3 workspace/scripts/finance-intel-report-gate.py --report <report> --task-slug <slug>`
-6. 保存到 `workspace/report/[主题]_[时间戳].md`
-7. 统一优先运行 `workspace/scripts/deep-research-deliver.sh --path <report>`；finance-sensitive 报告会先自动判断是否需要过 `finance-intel-report-gate.py`
-8. 优先通过消息工具的 `filePath` 参数发送；如果当前回合只能输出文本，则至少原样输出 `FILEPATH:./...`
+8. 保存到 `workspace/report/[主题]_[时间戳].md`
+9. 统一优先运行 `workspace/scripts/deep-research-deliver.sh --path <report>`；该脚本会先做 DOI/PMID/PMCID 自动补链，再做 reference guard，再按需做 finance gate
+10. 优先通过消息工具的 `filePath` 参数发送；如果当前回合只能输出文本，则至少原样输出 `FILEPATH:./...`
 
 **报告结构**：
 ```markdown
@@ -433,6 +510,10 @@ python3 workspace/skills/deep-research/scripts/research_quant_toolkit.py calc \
 ### 搜索策略
 - 搜索关键词
 - 信息源选择理由
+- 对 `info-collector-*`，优先使用 `workspace/skills/deep-research/scripts/info_search_scheduler.py`
+- 该脚本负责最小可执行的 MCP-first 调度：优先学术/专用 MCP，再退到通用网页搜索
+- 当 `Brave` 出现 `429` / `quota` / `rate limit` 时，不要反复重试；用脚本把 Brave family 标记为 cooling，然后切换到下一个 lane
+- 对任何不熟悉的 MCP server，先执行 `mcp_call(action=list_tools, server=...)`，再做正式 `call`
 
 ---
 
@@ -504,6 +585,12 @@ python3 workspace/skills/deep-research/scripts/research_quant_toolkit.py calc \
 
 ### ... (列出所有引用)
 
+## 未核查线索（可选）
+
+- 只保留暂时没有补齐 URL 的线索
+- 明确写清为什么还不能纳入正式参考文献
+- 这一节不能参与正式 `[数字]` 引用编号
+
 ---
 
 ## 附件
@@ -547,17 +634,18 @@ petroleum_reservoir_feasibility_2026-03-10-15-30.md
 2. 执行：
 
 ```bash
-bash workspace/scripts/deliver-report.sh --path workspace/report/<file>.md
+bash workspace/scripts/deep-research-deliver.sh --path workspace/report/<file>.md
 ```
 
-3. 如果有消息工具可用，则把返回的相对路径作为 `filePath` 发送
-4. 如果当前只能返回文本，则至少单独输出一行：
+3. 该脚本会先尝试把 DOI / PMID / PMCID 归一化成官方链接，再拦截仍然缺链接的 reference，并按需执行 finance gate
+4. 如果有消息工具可用，则把返回的相对路径作为 `filePath` 发送
+5. 如果当前只能返回文本，则至少单独输出一行：
 
 ```text
 FILEPATH:./report/<file>.md
 ```
 
-5. 不要只回复“文件路径: ./report/...”，这不是稳定的文件交付格式
+6. 不要只回复“文件路径: ./report/...”，这不是稳定的文件交付格式
 
 **发送消息模板**：
 ```markdown
@@ -577,7 +665,8 @@ FILEPATH:./report/<file>.md
 
 **强制交付规则**：
 - 生成正式报告后，不要停在“路径提示”
-- 必须走 `deliver-report.sh` 或等价的 `filePath` 发送动作
+- 必须走 `deep-research-deliver.sh` 或等价的 `filePath` 发送动作
+- `deep-research-deliver.sh` 会拒绝 reference 中缺少真实链接的报告
 - 当用户明确说“把报告发给我”时，优先发文件，不要改成长篇摘要代替文件
 
 ---

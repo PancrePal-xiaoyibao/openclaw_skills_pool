@@ -1,0 +1,140 @@
+{
+  "rules": [
+    {
+      "id": "kai-men-liu-he",
+      "label": "开门六合",
+      "category": "door_god",
+      "match": {
+        "door": "开门",
+        "god": "六合"
+      },
+      "score": 0.8,
+      "reason": "利公开沟通、谈判、联盟与协作推进。"
+    },
+    {
+      "id": "kai-men-tian-xin",
+      "label": "开门天心",
+      "category": "door_star",
+      "match": {
+        "door": "开门",
+        "star": "天心"
+      },
+      "score": 0.7,
+      "reason": "利制度化协商、理性决策、专业谈判。"
+    },
+    {
+      "id": "sheng-men-jiu-di",
+      "label": "生门九地",
+      "category": "door_god",
+      "match": {
+        "door": "生门",
+        "god": "九地"
+      },
+      "score": 0.6,
+      "reason": "利稳步积累资源、打基础、慢热成事。"
+    },
+    {
+      "id": "xiu-men-tian-fu",
+      "label": "休门天辅",
+      "category": "door_star",
+      "match": {
+        "door": "休门",
+        "star": "天辅"
+      },
+      "score": 0.5,
+      "reason": "利修整、筹划、教育辅导与温和推进。"
+    },
+    {
+      "id": "du-men-tai-yin",
+      "label": "杜门太阴",
+      "category": "door_god",
+      "match": {
+        "door": "杜门",
+        "god": "太阴"
+      },
+      "score": 0.1,
+      "reason": "主暗中筹划、保密、慢节奏推进，成事不宜过急。"
+    },
+    {
+      "id": "jing-men-bai-hu",
+      "label": "惊门白虎",
+      "category": "door_god",
+      "match": {
+        "door": "惊门",
+        "god": "白虎"
+      },
+      "score": -1.0,
+      "reason": "主突发冲突、激烈碰撞、风险放大。"
+    },
+    {
+      "id": "si-men-tian-rui",
+      "label": "死门天芮",
+      "category": "door_star",
+      "match": {
+        "door": "死门",
+        "star": "天芮"
+      },
+      "score": -1.2,
+      "reason": "主停滞、病忧、问题堆积，不利快速落地。"
+    },
+    {
+      "id": "tian-zhu-jing-men",
+      "label": "天柱惊门",
+      "category": "door_star",
+      "match": {
+        "door": "惊门",
+        "star": "天柱"
+      },
+      "score": -0.8,
+      "reason": "主争执、顶撞、口舌升级，宜谨防情绪化。"
+    },
+    {
+      "id": "zhu-que-tou-jiang",
+      "label": "朱雀投江",
+      "category": "stem_combo",
+      "match": {
+        "heaven_stem": "丁",
+        "earth_stem": "癸"
+      },
+      "score": -0.9,
+      "reason": "主文书信息暗昧、承诺落空、言辞有失。"
+    },
+    {
+      "id": "bai-hu-chang-kuang",
+      "label": "白虎猖狂",
+      "category": "stem_combo",
+      "match": {
+        "heaven_stem": "庚",
+        "earth_stem": "乙"
+      },
+      "score": -1.1,
+      "reason": "主硬碰硬、压迫感强、争执和伤害成本上升。"
+    },
+    {
+      "id": "san-qi-de-shi",
+      "label": "三奇得使",
+      "category": "duty_combo",
+      "match": {
+        "is_duty_door_palace": true,
+        "heaven_stem_in": [
+          "乙",
+          "丙",
+          "丁"
+        ]
+      },
+      "score": 0.9,
+      "reason": "三奇临值使门，主关键动作更容易得势。"
+    },
+    {
+      "id": "qing-long-hui-shou",
+      "label": "青龙回首",
+      "category": "duty_combo",
+      "match": {
+        "is_duty_star_palace": true,
+        "earth_stem": "丙"
+      },
+      "score": 0.8,
+      "reason": "值符星临地盘丙，主回头见喜、利主导与反转。"
+    }
+  ]
+}
